@@ -27,6 +27,8 @@ function writeToLog(
 	console.log(logEntries);
 }
 
+const asdaSas = 'wsds'
+
 function add() {
 	const enteredNum = getUserInput();
 	const initialResult = currentResult;
