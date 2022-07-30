@@ -6,11 +6,12 @@ function getUserInput() {
 	return parseInt(userInput.value);
 }
 
+
 function createAndWriteLog(operator, resultBeforeCalc, Calcnumber) {
 	const calcDesc = `${resultBeforeCalc} ${operator} ${Calcnumber}`;
 	outputResult(currentResult, calcDesc);
 }
-
+const asd = 'sdas'
 function writeToLog(
 	operationIdentifier,
 	prevResult,
